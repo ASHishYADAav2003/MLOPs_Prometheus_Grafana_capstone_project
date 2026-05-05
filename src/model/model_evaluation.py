@@ -25,7 +25,7 @@ dagshub_url = "https://dagshub.com"
 repo_owner = "ASHishYADAav2003"
 repo_name = "MLOPs_Prometheus_Grafana_capstone_project"
 
-# Set up MLflow tracking URI
+#  Set up MLflow tracking URI
 mlflow.set_tracking_uri(f'{dagshub_url}/{repo_owner}/{repo_name}.mlflow')
 # -------------------------------------------------------------------------------------
 
