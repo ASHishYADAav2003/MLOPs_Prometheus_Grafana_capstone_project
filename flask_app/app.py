@@ -15,6 +15,13 @@ import warnings
 warnings.simplefilter("ignore", UserWarning)
 warnings.filterwarnings("ignore")
 
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+capstone_test = os.getenv("CAPSTONE_TEST")
+
 def lemmatization(text):
     """Lemmatize the text."""
     lemmatizer = WordNetLemmatizer()
