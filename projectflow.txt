@@ -63,6 +63,7 @@
 36. Try running the image: "docker run -p 8888:5000 capstone-app:latest"
     - This run will give 'OSError: capstone_test environment variable is not set'...obviously
     - alternate: docker run -p 8888:5000 -e CAPSTONE_TEST=3d526a53b84cafd2a82e2154667d8d073162b8e4 capstone-app:latest
+    - tag the docker image -docker tag flask-app:latest youruser/flask-app:latest
     - docker push youruser/capstone-app:latest (optional)
     - optional: try to delete image locally and pull it from dockerhub and run (optional)
 
