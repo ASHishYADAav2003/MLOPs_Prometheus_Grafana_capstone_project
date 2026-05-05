@@ -30,9 +30,9 @@ mlflow.set_tracking_uri(f'{dagshub_url}/{repo_owner}/{repo_name}.mlflow')
 # -------------------------------------------------------------------------------------
 
 # Below code block is for local use
-# -------------------------------------------------------------------------------------
-mlflow.set_tracking_uri('https://dagshub.com/ASHishYADAav2003/MLOPs_Prometheus_Grafana_capstone_project.mlflow')
-dagshub.init(repo_owner='ASHishYADAav2003', repo_name='MLOPs_Prometheus_Grafana_capstone_project', mlflow=True)
+#  -------------------------------------------------------------------------------------
+# mlflow.set_tracking_uri('https://dagshub.com/ASHishYADAav2003/MLOPs_Prometheus_Grafana_capstone_project.mlflow')
+# dagshub.init(repo_owner='ASHishYADAav2003', repo_name='MLOPs_Prometheus_Grafana_capstone_project', mlflow=True)
 # -------------------------------------------------------------------------------------
 
 
